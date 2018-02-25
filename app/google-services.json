@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "148371951558",
+    "firebase_url": "https://lilgems-1591c.firebaseio.com",
+    "project_id": "lilgems-1591c",
+    "storage_bucket": "lilgems-1591c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148371951558:android:cedd41923dc98654",
+        "android_client_info": {
+          "package_name": "com.example.syyam.lilgems"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148371951558-5pbggn5520iprk6qjqe8cd8pinpoh2r2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.syyam.lilgems",
+            "certificate_hash": "ef0bfbd76ebf14be4f4d47b62e9d04a9517fb814"
+          }
+        },
+        {
+          "client_id": "148371951558-o14v0r1671tqf2dl1reh39v16en3d929.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsRs0gG0FntjCuqk5mYYpnBcn6IwCh7yo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148371951558-o14v0r1671tqf2dl1reh39v16en3d929.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.syyam.lilgems.UserMeals">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/mondayy"
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:inputType="textPersonName"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:text="Monday"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/monday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:background="@drawable/input_outline"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/tuesdayy"
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:inputType="textPersonName"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:text="Tuesday"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tuesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:background="@drawable/input_outline"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/wednesdayy"
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:inputType="textPersonName"
+                    android:text="Wednesday"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/wednesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:background="@drawable/input_outline"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/thursdayy"
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:inputType="textPersonName"
+                    android:text="Thursday"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/thursday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:background="@drawable/input_outline"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/fridayy"
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:inputType="none"
+                    android:text="Friday"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/friday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:background="@drawable/input_outline"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/saturdayy"
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:inputType="textPersonName"
+                    android:text="Saturday"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/saturday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:background="@drawable/input_outline"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/sundayy"
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:inputType="textPersonName"
+                    android:text="Sunday"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/sunday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

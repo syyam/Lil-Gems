@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.syyam.lilgems.UserMedic">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:inputType="textPersonName"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:text="Medicines"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/medicines"
+                    android:layout_width="match_parent"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:inputType="textPersonName"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:text="Med Notes"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/notes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:inputType="textPersonName"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:text="Temprature"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/temp"
+                    android:layout_width="match_parent"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="117dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:gravity="center_vertical|center"
+                    android:inputType="textPersonName"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:text="Weight"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/weight"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

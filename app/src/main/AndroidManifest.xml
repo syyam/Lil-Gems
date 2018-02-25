@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.syyam.lilgems">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/little_gems_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".startActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".userLoginActivity"
+            android:label="User Login" />
+        <activity
+            android:name=".registerActivity"
+            android:label="Register" />
+        <activity android:name=".Photos" />
+        <activity android:name=".PostPhotos" />
+        <activity
+            android:name=".adminLoginActivity"
+            android:label="Admin Login" />
+        <activity
+            android:name=".Goals"
+            android:label="Goals and Notes" />
+        <activity
+            android:name=".Meals"
+            android:label="Weekly Menu" />
+        <activity
+            android:name=".Toiletring"
+            android:label="Toiletring" />
+        <activity android:name=".ToiletInfo" />
+        <activity
+            android:name=".Supplies"
+            android:label="Supplies" />
+        <activity android:name=".SuppliesInfo" />
+        <activity android:name=".Medic" />
+        <activity android:name=".MedicInfo" />
+        <activity android:name=".UserMainActivity" />
+        <activity android:name=".UserMedic" />
+        <activity android:name=".UserToileting" />
+        <activity android:name=".UserSupplies" />
+        <activity
+            android:name=".UserGoals"
+            android:label="Goals and Notes" />
+        <activity android:name=".UserMeals" />
+        <activity android:name=".sendNotification" />
+        <activity android:name=".recieveNotification" />
+        <activity android:name=".recieveList"></activity>
+    </application>
+
+</manifest>
